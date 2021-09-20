@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATOS PERSONALES</title>
+    <link rel="stylesheet" href="../css/estilo2.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+  
+            <ul>
+                <li><a href="./Admin.html">Inicio</a></li>
+                <li><a href="./Catalogo.html">Agregar al catalogo</a></li>
+                <li><a href="../Carrito.html">Stock</a></li>
+                <li><a href="./movimientos_entrada.html">Moviemiento de Entrada</a></li>
+                <li><a href="./movimientos_salida.html">Moviento Salida</a></li>
+                <li><a href="./pages/Login1.html">Cerrar sesion</a></li>
+                
+            </ul>
+            </nav>
+        <center><strong><h1>Moviemiento de Salida</h1></strong></center>
+         
+        <form action="">
+
+            <fieldset style="margin: 5px;">
+             
+
+              <div class="row2col">
+                  <label for="">Cliente</label>
+                  <input type="text"
+                  id="IdDocumento"
+                  name="IdDocumento"
+                  required placeholder="Josue Ramirez ">
+              </div>
+
+            <div class="row2col">
+                <label for="idfecha">Fecha</label>
+                <input type="datetime-local"
+                id="idfecha"
+                name="idfecha"
+                required placeholder="Ingrese fecha">
+            </div>
+            <div class="row2col">
+                <label for="idproveedor">Moviemiento</label>
+                <input type="text"
+                id="idproveedor"
+                name="idproveedor"
+                required placeholder="SALIDA">
+            </div>
+         
+            </fieldset>
+            <div rel="main-container">
+            <fieldset style="margin: 5px;">
+                <center>
+                    <table border="1">
+                        <caption></caption>
+                        <thead>
+                            <th>CODIGO   </th>
+                            <th> PRODUCTO</th>
+                            <th> CANTIDAD </th>
+                            <th> PRECIO </th>
+                            <th> TOTAL </th>
+                        </thead>
+                        <tbody>
+                            <td>1</td>
+                            <td> Notebook HP</td>
+                            <td>2</td>
+                            <td>4500</td>
+                            <td>9000</td>
+                          <tr>
+                            <td>2</td>
+                            <td> Mouse </td>
+                            <td>10
+                            <td>100</td>
+                            <td>1000</td>
+                                </tr>
+                                
+                                        
+                        </tbody>
+                
+                    </table>
+               
+                    <label for="">Total: Q.10,000</label>
+                </div>
+              
+    <aside class="grid_rightaside">
+        
+    </aside>
+    </header>
+</body>
+</html>
